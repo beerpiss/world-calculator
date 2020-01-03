@@ -86,12 +86,12 @@ function calculate(l) {
             chartDiv.appendChild(div);
             var chartAdded = false;
             for(var j = 0; j < 3; j++) {
-                var score_min = get_score(charts[j]["detailed_rating"], chart_potential_min).toFixed(0);
-                var score_max = get_score(charts[j]["detailed_rating"], chart_potential_max).toFixed(0);
+                var score_min = get_score(charts[j]["detailed_rating"], chart_potential_min).toFixed(0) * 1;
+                var score_max = get_score(charts[j]["detailed_rating"], chart_potential_max).toFixed(0) * 1;
                 if(score_min == -1 || score_max == -2) continue;
                 var score_string = "";
                 if(score_min >= 0) {
-                    score_string += score_min;
+                    score_string += score_min.toLocaleString();
                 } else {
                     score_string += 0;
                 }
@@ -99,7 +99,7 @@ function calculate(l) {
                 if(score_max == 10000000 || score_max < 0) {
                     score_string += ""
                 } else if(score_max >= 0) {
-                    score_string += score_max;
+                    score_string += score_max.toLocaleString();
                 }
                 var rating_string = charts[j]["rating"]
                 if(rating_string == 10) rating_string = "9+";
