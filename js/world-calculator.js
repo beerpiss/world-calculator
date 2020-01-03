@@ -1,5 +1,5 @@
 function calculate() {
-    document.getElementById("song-table").innerHTML = "<p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>\n<p>하드게이지 클리어 실패는 0점으로 계산합니다.</p>";
+    document.getElementById("song-table").innerHTML = "<p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>\n<p>하드게이지 클리어 실패는 2.5 * (캐릭터 STEP 수치 / 50) 으로 계산합니다.</p>";
     document.getElementById("step-to-foward-invalid").style = "";
     document.getElementById("step-invalid").style = "";
     document.getElementById("step-to-forward-min").classList.remove("is-invalid");
@@ -19,8 +19,42 @@ function calculate() {
         }
         return;
     }
-    var chart_potential_min = Math.pow(((((min * 50) / step) - 2.5) / 2.45), 2);
-    var chart_potential_max = Math.pow(((((max * 50) / step) - 2.5) / 2.45), 2);
+    var songdiv = document.getElementById("song-table");
+    var tbl = document.createElement("table");
+    tbl.classList.add("table");
+    var thead = document.createElement("thead");
+    var headtr = document.createElement("tr");
+    var thsn = document.createElement("th");
+    thsn.appendChild(document.createTextNode("곡 명"));
+    headtr.appendChild(thsn);
+    var thr = document.createElement("th");
+    thr.appendChild(document.createTextNode("난이도"));
+    headtr.appendChild(thr);
+    var thdr = document.createElement("th");
+    thdr.appendChild(document.createTextNode("세부 난이도"));
+    headtr.appendChild(thdr);
+    var thsr = document.createElement("th");
+    thsr.appendChild(document.createTextNode("점수 범위"));
+    headtr.appendChild(thsr);
+    thead.appendChild(headtr);
+    tbl.appendChild(thead);
+    var tbody = document.createElement("tbody");
+    var chart_potential_min = Math.pow((((min * (50 / step)) - 2.5) / 2.45), 2);
+    var chart_potential_max = Math.pow((((max * (50 / step)) - 2.5) / 2.45), 2);
+    if((((max * (50 / step)) - 2.5) / 2.45) < 0) {
+        var tr = document.createElement("tr");
+        var td = document.createElement("td");
+        td.colSpan = 4;
+        td.style = "padding: 30px 0; text-align: center;";
+        td.appendChild(document.createTextNode("해당 파트너는 지정한 범위만큼 이동하는 것이 불가능합니다 :("));
+        tr.appendChild(td);
+        tbody.appendChild(tr);
+        tbl.appendChild(tbody);
+        songdiv.appendChild(tbl);
+        songdiv.style = "display: block;";
+        return;
+    }
+    if((((min * (50 / step)) - 2.5) / 2.45) < 0) chart_potential_min = -31;
     $.ajaxSetup({beforeSend: function(xhr){
         if (xhr.overrideMimeType) {
           xhr.overrideMimeType("application/json");
@@ -28,26 +62,6 @@ function calculate() {
     }});
     $.getJSON("static/data/songlist.json", function(data) {
         var songs = data["songs"];
-        var songdiv = document.getElementById("song-table");
-        var tbl = document.createElement("table");
-        tbl.classList.add("table");
-        var thead = document.createElement("thead");
-        var headtr = document.createElement("tr");
-        var thsn = document.createElement("th");
-        thsn.appendChild(document.createTextNode("곡 명"));
-        headtr.appendChild(thsn);
-        var thr = document.createElement("th");
-        thr.appendChild(document.createTextNode("난이도"));
-        headtr.appendChild(thr);
-        var thdr = document.createElement("th");
-        thdr.appendChild(document.createTextNode("세부 난이도"));
-        headtr.appendChild(thdr);
-        var thsr = document.createElement("th");
-        thsr.appendChild(document.createTextNode("점수 범위"));
-        headtr.appendChild(thsr);
-        thead.appendChild(headtr);
-        tbl.appendChild(thead);
-        var tbody = document.createElement("tbody");
         var added = false;
         for(var i = 0; i < songs.length; i++) {
             console.log("Reading " + songs[i]["title_localized"]["en"] + "...");
