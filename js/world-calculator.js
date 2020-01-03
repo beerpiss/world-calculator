@@ -3,7 +3,7 @@ var lang_ko = {
     "minIsBigger": "최댓값은 최솟값 이상이여야 합니다.",
     "songName": "곡 명",
     "rating": "난이도",
-    "detailedRating": "세부 난이도",
+    "detailedRating": "세부 난이도(최대 스텝 수)",
     "scoreRange": "점수 범위",
     "impossiblePartner": "해당 파트너는 지정한 범위만큼 이동하는 것이 불가능합니다 :(",
     "noSongs": "해당 범위만큼 전진할 수 있도록 하는 곡이 존재하지 않습니다. :(",
@@ -16,7 +16,7 @@ var lang_en = {
     "minIsBigger": "Input value is must be number.",
     "songName": "Song title",
     "rating": "Difficulty",
-    "detailedRating": "Chart constant",
+    "detailedRating": "Chart constant(Max. step progress)",
     "scoreRange": "Score range",
     "impossiblePartner": "Selected Partner is impossible to progress desired range :(",
     "noSongs": "No songs available to progress desired range :(",
@@ -102,13 +102,17 @@ function calculate(l) {
             for(var j = 0; j < 3; j++) {
                 var score_min = get_score(charts[j]["detailed_rating"], chart_potential_min).toFixed(0);
                 var score_max = get_score(charts[j]["detailed_rating"], chart_potential_max).toFixed(0);
-                if(score_min < 0 && score_max < 0) continue;
+                if(score_min == -1 || score_max == -2) continue;
                 var score_string = "";
                 if(score_min >= 0) {
                     score_string += score_min;
+                } else {
+                    score_string += 0;
                 }
                 score_string += "~";
-                if(score_max >= 0) {
+                if(score_max == 10000000 || score_max < 0) {
+                    score_string += "PURE MEMORY"
+                } else if(score_max >= 0) {
                     score_string += score_max;
                 }
                 var rating_string = charts[j]["rating"]
@@ -126,7 +130,7 @@ function calculate(l) {
                 tdr.appendChild(document.createTextNode(tdrText[j] + rating_string));
                 tr.appendChild(tdr);
                 var tddr = document.createElement("td");
-                tddr.appendChild(document.createTextNode(charts[j]["detailed_rating"]));
+                tddr.appendChild(document.createTextNode(charts[j]["detailed_rating"] + "(" + ((2.45 * Math.sqrt(charts[j]["detailed_rating"] + 2) + 2.5) * (step / 50)).toFixed(1) + ")"));
                 tr.appendChild(tddr);
                 var tdsr = document.createElement("td");
                 tdsr.appendChild(document.createTextNode(score_string));
@@ -152,7 +156,12 @@ function calculate(l) {
 function get_score(detailed_rating, chart_potential) {
     //console.log("detailed_rating:" + detailed_rating + ", chart_potential:" + chart_potential);
     var score_mod = chart_potential - detailed_rating;
-    if(score_mod < -30 || score_mod > 2) {
+    if(score_mod < -30) {
+        // target score is too low
+        return -2;
+    }
+    if(score_mod > 2) {
+        // target score is too high
         return -1;
     }
     if(score_mod == 2) {
