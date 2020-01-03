@@ -1,5 +1,5 @@
 var lang_ko = {
-    "tableHelp": "<p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>\n<p>하드게이지 클리어 실패는 2.5 * (캐릭터 STEP 수치 / 50) 으로 계산합니다.</p>",
+    "tableHelp": "<p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>\n<p>하드게이지 클리어 실패는 2.5 * (파트너 STEP 수치 / 50) 으로 계산합니다.</p>",
     "minIsBigger": "최댓값은 최솟값 이상이여야 합니다.",
     "songName": "곡 명",
     "rating": "난이도",
@@ -53,37 +53,13 @@ function calculate(l) {
         return;
     }
     var songdiv = document.getElementById("song-table");
-    var tbl = document.createElement("table");
-    tbl.classList.add("table");
-    var thead = document.createElement("thead");
-    var headtr = document.createElement("tr");
-    var thsn = document.createElement("th");
-    thsn.appendChild(document.createTextNode(ln(l, "songName")));
-    headtr.appendChild(thsn);
-    var thr = document.createElement("th");
-    thr.appendChild(document.createTextNode(ln(l, "rating")));
-    headtr.appendChild(thr);
-    var thdr = document.createElement("th");
-    thdr.appendChild(document.createTextNode(ln(l, "detailedRating")));
-    headtr.appendChild(thdr);
-    var thsr = document.createElement("th");
-    thsr.appendChild(document.createTextNode(ln(l, "scoreRange")));
-    headtr.appendChild(thsr);
-    thead.appendChild(headtr);
-    tbl.appendChild(thead);
-    var tbody = document.createElement("tbody");
     var chart_potential_min = Math.pow((((min * (50 / step)) - 2.5) / 2.45), 2);
     var chart_potential_max = Math.pow((((max * (50 / step)) - 2.5) / 2.45), 2);
     if((((max * (50 / step)) - 2.5) / 2.45) < 0) {
-        var tr = document.createElement("tr");
-        var td = document.createElement("td");
-        td.colSpan = 4;
-        td.style = "padding: 30px 0; text-align: center;";
-        td.appendChild(document.createTextNode(ln(l, "impossiblePartner")));
-        tr.appendChild(td);
-        tbody.appendChild(tr);
-        tbl.appendChild(tbody);
-        songdiv.appendChild(tbl);
+        var div = document.createElement("div");
+        div.style = "padding: 30px 0; text-align: center;";
+        div.appendChild(document.createTextNode(ln(l, "impossiblePartner")));
+        songdiv.appendChild(div);
         songdiv.style = "display: block;";
         return;
     }
@@ -99,6 +75,16 @@ function calculate(l) {
         for(var i = 0; i < songs.length; i++) {
             //console.log("Processing " + songs[i]["title_localized"]["en"] + "...");
             var charts = songs[i]["difficulties"]
+            var chartDiv = document.createElement("div");
+            chartDiv.classList.add("row");
+            var div = document.createElement("div");
+            div.classList.add("col-lg");
+            var h5 = document.createElement("h5");
+            h5.innerHTML = songs[i]["title_localized"]["en"];
+            div.appendChild(h5);
+            div.appendChild(document.createTextNode(songs[i]["artist"]));
+            chartDiv.appendChild(div);
+            var chartAdded = false;
             for(var j = 0; j < 3; j++) {
                 var score_min = get_score(charts[j]["detailed_rating"], chart_potential_min).toFixed(0);
                 var score_max = get_score(charts[j]["detailed_rating"], chart_potential_max).toFixed(0);
@@ -111,7 +97,7 @@ function calculate(l) {
                 }
                 score_string += "~";
                 if(score_max == 10000000 || score_max < 0) {
-                    score_string += "PURE MEMORY"
+                    score_string += ""
                 } else if(score_max >= 0) {
                     score_string += score_max;
                 }
@@ -119,36 +105,34 @@ function calculate(l) {
                 if(rating_string == 10) rating_string = "9+";
                 if(rating_string == 11) rating_string = "10";
                 added = true;
-                var tr = document.createElement("tr");
-                var tdsn = document.createElement("td");
-                tdsn.appendChild(document.createTextNode(songs[i]["title_localized"]["en"]));
-                tr.appendChild(tdsn);
-                var tdr = document.createElement("td");
-                var tdrColors = ["text-primary", "text-success", "text-danger"];
-                var tdrText = ["PAST ", "PRESENT ", "FUTURE "];
-                tdr.classList.add(tdrColors[j]);
-                tdr.appendChild(document.createTextNode(tdrText[j] + rating_string));
-                tr.appendChild(tdr);
-                var tddr = document.createElement("td");
-                tddr.appendChild(document.createTextNode(charts[j]["detailed_rating"] + "(" + ((2.45 * Math.sqrt(charts[j]["detailed_rating"] + 2) + 2.5) * (step / 50)).toFixed(1) + ")"));
-                tr.appendChild(tddr);
-                var tdsr = document.createElement("td");
-                tdsr.appendChild(document.createTextNode(score_string));
-                tr.appendChild(tdsr);
-                tbody.appendChild(tr);
+                chartAdded = true;
+                var colDiv = document.createElement("div");
+                colDiv.style = "margin: 0 5px";
+                colDiv.classList.add("col-sm-2");
+                var badgeColors = ["badge-primary", "badge-success", "badge-danger"];
+                var badgeText = ["PAST ", "PRESENT ", "FUTURE "];
+                var badge = document.createElement("span");
+                badge.classList.add("badge");
+                badge.classList.add("badge-pill");
+                badge.classList.add(badgeColors[j]);
+                badge.innerHTML = badgeText[j] + rating_string + "(" + charts[j]["detailed_rating"] + ")";
+                colDiv.appendChild(badge);
+                colDiv.appendChild(document.createElement("br"));
+                colDiv.appendChild(document.createTextNode(score_string));
+                chartDiv.appendChild(colDiv);
+                //tddr.appendChild(document.createTextNode(charts[j]["detailed_rating"] + "(" + ((2.45 * Math.sqrt(charts[j]["detailed_rating"] + 2) + 2.5) * (step / 50)).toFixed(1) + ")"));
+            }
+            if(chartAdded) {
+                songdiv.appendChild(document.createElement("hr"));
+                songdiv.appendChild(chartDiv);
             }
         }
-        if(added == false) {
-            var tr = document.createElement("tr");
-            var td = document.createElement("td");
-            td.colSpan = 4;
-            td.style = "padding: 30px 0; text-align: center;";
-            td.appendChild(document.createTextNode(ln(l, "noSongs")));
-            tr.appendChild(td);
-            tbody.appendChild(tr);
+        if(!added) {
+            var div = document.createElement("div");
+            div.style = "padding: 30px 0; text-align: center;";
+            div.appendChild(document.createTextNode(ln(l, "noSongs")));
+            songdiv.appendChild(div);
         }
-        tbl.appendChild(tbody);
-        songdiv.appendChild(tbl);
         songdiv.style = "display: block;";
     });
 }

@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Arcinfo World Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" sizes="57x57" href="../static/img/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../static/img/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../static/img/apple-icon-72x72.png">
@@ -30,6 +31,10 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
             <a class="navbar-brand geosans" href="#"><img src="../static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -46,7 +51,7 @@
                 <h1 class="geosans">World Calculator</h1>
                 <p>Enter step range to progress and partner's STEP stat. It will show you right score range for available songs.</p>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md">
                         <label for="step-to-forward-min">Step Range to Progress</label>
                         <div class="input-group">
                             <input type="text" aria-label="Minimum step to progress" id="step-to-forward-min" class="form-control">
@@ -59,14 +64,14 @@
                             </div>
                         </div>
                     </div>
-                    <dlv class="col">
+                    <dlv class="col-md">
                         <label for="character-step">Partner's STEP stat</label>
                         <input type="text" aria-label="Partner's STEP stat" id="character-step" class="form-control">
                         <div id="step-invalid" class="invalid-feedback">
                             Input value is must be number.
                         </div>
                     </dlv>
-                    <div class="col">
+                    <div class="col-md">
                         <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('en');">Calculate</button>
                     </div>
                 </div>
@@ -92,26 +97,35 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <h2>v1.0.0 - 03/01/2020</h2>
+                        <h2>v1.0.0 - 01/03/2020</h2>
                         <ul>
                             <li>Inital release</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.1 - 03/01/2020</h2>
+                        <h2>v1.0.1 - 01/03/2020</h2>
                         <ul>
                             <li>Added changelog.</li>
                             <li>Fixed improper results when User try to calculate with low step range.</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.2 - 03/01/2020</h2>
+                        <h2>v1.0.2 - 01/03/2020</h2>
                         <ul>
                             <li>Added English language.</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.3 - 04/01/2020</h2>
+                        <h2>v1.0.3 - 01/04/2020</h2>
                         <ul>
                             <li>Now you can see Max. step progress in chart constant column.</li>
                             <li>When max score in score range is 10000000, Now it's changed to 'PURE MEMORY' due to misunderstanding(You'll get same step progress when you get records over 10000000).</li>
+                        </ul>
+                        <hr>
+                        <h2>v1.1.0 - 01/04/2020</h2>
+                        <ul>
+                            <li>Applied Responsive Layout.</li>
+                            <li>Temporarily removed Max. step progress due to layout change.</li>
+                            <li>'PURE MEMORY' is now 'PM'.</li>
+                            <li>Now display diffrent difficulties of the same song at once.</li>
+                            <li>Added artist name below the song title.</li>
                         </ul>
                     </div>
                     <div class="modal-footer">

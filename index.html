@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Arcinfo World Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="static/img/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-icon-72x72.png">
@@ -30,6 +31,10 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
             <a class="navbar-brand geosans" href="#"><img src="static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -46,7 +51,7 @@
                 <h1 class="geosans">World Calculator</h1>
                 <p>전진하고 싶은 만큼의 스텝 범위를 입력하고, 캐릭터 STEP 수치를 입력하면 어떤 곡을 어느 점수로 플레이 해야 할지 알려드립니다.</p>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md">
                         <label for="step-to-forward-min">전진하고 싶은 스텝</label>
                         <div class="input-group">
                             <input type="text" aria-label="최소 전진하고 싶은 스텝 수" id="step-to-forward-min" class="form-control">
@@ -59,14 +64,14 @@
                             </div>
                         </div>
                     </div>
-                    <dlv class="col">
-                        <label for="character-step">캐릭터 STEP 수치</label>
-                        <input type="text" aria-label="캐릭터 STEP 수치" id="character-step" class="form-control">
+                    <dlv class="col-md">
+                        <label for="character-step">파트너 STEP 수치</label>
+                        <input type="text" aria-label="파트너 STEP 수치" id="character-step" class="form-control">
                         <div id="step-invalid" class="invalid-feedback">
                             입력값은 숫자여야 합니다.
                         </div>
                     </dlv>
-                    <div class="col">
+                    <div class="col-md">
                         <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('ko');">확인</button>
                     </div>
                 </div>
@@ -74,7 +79,7 @@
             <hr>
             <div id="song-table">
                 <p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>
-                <p>하드게이지 클리어 실패는 2.5 * (캐릭터 STEP 수치 / 50) 으로 계산합니다.</p>
+                <p>하드게이지 클리어 실패는 2.5 * (파트너 STEP 수치 / 50) 으로 계산합니다.</p>
             </div>
         </div>
         <footer>
@@ -112,6 +117,15 @@
                         <ul>
                             <li>곡 목록의 세부 난이도 항목에 입력한 파트너 STEP 수치에서 얻을 수 있는 최대 월드 스텝 수를 표시하도록 하였습니다.</li>
                             <li>점수 범위에서 10000000점이 표시될 경우 10000000점 이상도 같은 월드 스텝 수를 얻을 수 있기 때문에 표기를 10000000 에서 PURE MEMORY 로 변경하였습니다.</li>
+                        </ul>
+                        <hr>
+                        <h2>v1.1.0 - 2020/01/04</h2>
+                        <ul>
+                            <li>반응형 레이아웃이 적용되었습니다. 이에 따라 레이아웃을 표에서 자체 레이아웃으로 변경하였습니다.</li>
+                            <li>최대 월드 스텝 수 표시를 일시적으로 삭제했습니다.</li>
+                            <li>PURE MEMORY 표기를 PM 으로 줄여서 표기합니다.</li>
+                            <li>같은 곡의 다른 난이도는 이제 합쳐서 표기합니다.</li>
+                            <li>곡의 작곡가 명의도 표시됩니다.</li>
                         </ul>
                     </div>
                     <div class="modal-footer">
