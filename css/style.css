@@ -49,3 +49,7 @@ footer p {
     color: #fff;
     text-align: center;
 }
+
+#song-table {
+    display: none;
+}
