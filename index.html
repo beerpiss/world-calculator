@@ -28,13 +28,18 @@
         <script src="js/world-calculator.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-light" style="background-color: #F48FB1">
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
             <a class="navbar-brand geosans" href="#"><img src="static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="changelog-view" data-toggle="modal" data-target="#changelog">변경사항</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="en">EN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="changelog-view" data-toggle="modal" data-target="#changelog">변경사항</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <div id="data-input">
@@ -62,7 +67,7 @@
                         </div>
                     </dlv>
                     <div class="col">
-                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate();">확인</button>
+                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('ko');">확인</button>
                     </div>
                 </div>
             </div>
@@ -88,15 +93,20 @@
                     </div>
                     <div class="modal-body">
                         <h2>v1.0.0 - 2020/01/03</h2>
-                        <ol>
+                        <ul>
                             <li>최초 릴리즈</li>
-                        </ol>
+                        </ul>
                         <hr>
                         <h2>v1.0.1 - 2020/01/03</h2>
-                        <ol>
+                        <ul>
                             <li>변경사항 추가</li>
                             <li>너무 낮은 스텝을 가진 범위에서 점수를 달성해도 칸을 지나치게 되는 문제 수정</li>
-                        </ol>
+                        </ul>
+                        <hr>
+                        <h2>v1.0.2 - 2020/01/03</h2>
+                        <ul>
+                            <li>영어 지원</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>

@@ -3,73 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <title>Arcinfo World Calculator</title>
-        <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="static/img/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="static/img/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="static/img/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="static/img/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="static/img/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../static/img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../static/img/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../static/img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../static/img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../static/img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../static/img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../static/img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../static/img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../static/img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
         <meta name="msapplication-TileColor" content="#F48FB1">
-        <meta name="msapplication-TileImage" content="static/img/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="../static/img/ms-icon-144x144.png">
         <meta name="theme-color" content="#F48FB1">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="js/world-calculator.js"></script>
+        <script src="../js/world-calculator.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-light" style="background-color: #F48FB1">
-            <a class="navbar-brand geosans" href="#"><img src="static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
+            <a class="navbar-brand geosans" href="#"><img src="../static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../">KO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="changelog-view" data-toggle="modal" data-target="#changelog">Changelog</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <div id="data-input">
                 <h1 class="geosans">World Calculator</h1>
-                <p>전진하고 싶은 만큼의 스텝 범위를 입력하고, 캐릭터 STEP 수치를 입력하면 어떤 곡을 어느 점수로 플레이 해야 할지 알려드립니다.</p>
+                <p>Enter step range to progress and partner's STEP stat. It will show you right score range for available songs.</p>
                 <div class="row">
                     <div class="col">
-                        <label for="step-to-forward-min">전진하고 싶은 스텝</label>
+                        <label for="step-to-forward-min">Step Range to Progress</label>
                         <div class="input-group">
-                            <input type="text" aria-label="최소 전진하고 싶은 스텝 수" id="step-to-forward-min" class="form-control">
+                            <input type="text" aria-label="Minimum step to progress" id="step-to-forward-min" class="form-control">
                             <div class="input-group-append">
                                 <span class="input-group-text">~</span>
                             </div>
-                            <input type="text" aria-label="최대 전진하고 싶은 스텝 수" id="step-to-forward-max" class="form-control">
+                            <input type="text" aria-label="Maximum step to progress" id="step-to-forward-max" class="form-control">
                             <div id="step-to-foward-invalid" class="invalid-feedback">
-                                입력값은 숫자여야 합니다.
+                                Input value is must be number.
                             </div>
                         </div>
                     </div>
                     <dlv class="col">
-                        <label for="character-step">캐릭터 STEP 수치</label>
-                        <input type="text" aria-label="캐릭터 STEP 수치" id="character-step" class="form-control">
+                        <label for="character-step">Partner's STEP stat</label>
+                        <input type="text" aria-label="Partner's STEP stat" id="character-step" class="form-control">
                         <div id="step-invalid" class="invalid-feedback">
-                            입력값은 숫자여야 합니다.
+                            Input value is must be number.
                         </div>
                     </dlv>
                     <div class="col">
-                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate();">확인</button>
+                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('en');">Calculate</button>
                     </div>
                 </div>
             </div>
             <hr>
             <div id="song-table">
-                <p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>
-                <p>하드게이지 클리어 실패는 0점으로 계산합니다.</p>
+                <p>Use Ctrl+F to find desired songs.</p>
+                <p>If you failed with HARD gauge partners, 2.5 * (Partner's STEP stat / 50) is your step progress.</p>
             </div>
         </div>
         <footer>
             <p>ⓒ2019 Arcinfo All right reserved.<p>
             <p>Game "Arcaea" and all related stuffs are owned by lowiro limited.</p>
         </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="Changelog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="changelog-title">Changelog</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>v1.0.0 - 2020/01/03</h2>
+                        <ul>
+                            <li>Inital release</li>
+                        </ul>
+                        <hr>
+                        <h2>v1.0.1 - 2020/01/03</h2>
+                        <ul>
+                            <li>Added changelog.</li>
+                            <li>Fixed improper results when User try to calculate with low step range.</li>
+                        </ul>
+                        <hr>
+                        <h2>v1.0.2 - 2020/01/03</h2>
+                        <ul>
+                            <li>Added English language.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a class="btn btn-primary" href="https://github.com/arc-info/world-calculator">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
