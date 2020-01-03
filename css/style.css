@@ -1,5 +1,51 @@
+@font-face {
+    font-family: 'GeosansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GeosansLight'), url('../static/fonts/GeosansLight.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'GeosansLight-Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GeosansLight-Oblique'), url('../static/fonts/GeosansLight-Oblique.woff') format('woff');
+}
+
+html {
+    height: 100%;
+}
+
 body {
     background-image: url("../static/img/background_darkened.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.geosans {
+    font-family: 'GeosansLight', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: auto;
+}
+  
+footer p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
 }
