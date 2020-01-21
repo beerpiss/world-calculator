@@ -5987,5 +5987,204 @@
                 }
             ]
         }
+        ,
+        {
+          "id": "battlenoone",
+          "title_localized": {
+            "en": "BATTLE NO.1"
+          },
+          "artist": "TANO*C Sound Team",
+          "bpm": "200",
+          "bpm_base": 200,
+           "set": "single",
+          "purchase": "battlenoone",
+          "audioPreview": 0,
+          "audioPreviewEnd": 0,
+          "side": 1,
+          "bg": "tanoc_conflict",
+          "remote_dl": true,
+          "world_unlock": false,
+          "date": 1579046400,
+          "difficulties": [
+            {
+              "ratingClass": 0,
+              "chartDesigner": "Nitro",
+              "jacketDesigner": "Hanamori Hiro",
+              "rating": 3,
+              "detailed_rating": 3.5
+            },
+            {
+              "ratingClass": 1,
+              "chartDesigner": "Nitro",
+              "jacketDesigner": "Hanamori Hiro",
+              "rating": 6,
+              "detailed_rating": 6.5
+            },
+            {
+              "ratingClass": 2,
+              "chartDesigner": "Arcaea Team",
+              "jacketDesigner": "Hanamori Hiro",
+              "rating": 9,
+              "detailed_rating": 9.7
+            }
+          ]
+        }
+        ,
+        {
+          "id": "laqryma",
+          "title_localized": {
+            "en": "La'qryma of the Wasteland"
+          },
+          "artist": "DJ Noriken",
+          "bpm": "168",
+          "bpm_base": 168,
+          "set": "single",
+          "purchase": "laqryma",
+          "audioPreview": 0,
+          "audioPreviewEnd": 0,
+          "side": 1,
+          "bg": "tanoc_conflict",
+          "remote_dl": true,
+          "world_unlock": false,
+          "date": 1579478400,
+          "difficulties": [
+            {
+              "ratingClass": 0,
+              "chartDesigner": "Toaster",
+              "jacketDesigner": "和音ハカ",
+              "rating": 3
+            },
+            {
+              "ratingClass": 1,
+              "chartDesigner": "Toaster",
+              "jacketDesigner": "和音ハカ",
+              "rating": 6
+            },
+            {
+              "ratingClass": 2,
+              "chartDesigner": "Toaster",
+              "jacketDesigner": "和音ハカ",
+              "rating": 9
+            }
+          ]
+        }
+        ,
+        {
+          "id": "einherjar",
+          "title_localized": {
+            "en": "Einherjar Joker"
+          },
+          "artist": "DJ Genki vs Gram",
+          "bpm": "222",
+          "bpm_base": 222,
+          "set": "single",
+          "purchase": "einherjar",
+          "audioPreview": 0,
+          "audioPreviewEnd": 0,
+          "side": 1,
+          "bg": "tanoc_conflict",
+          "remote_dl": true,
+          "world_unlock": false,
+          "date": 1579478401,
+          "difficulties": [
+            {
+              "ratingClass": 0,
+              "chartDesigner": "Requiem TaroNuke",
+              "jacketDesigner": "すずなし",
+              "rating": 4
+            },
+            {
+              "ratingClass": 1,
+              "chartDesigner": "Requiem TaroNuke",
+              "jacketDesigner": "すずなし",
+              "rating": 7
+            },
+            {
+              "ratingClass": 2,
+              "chartDesigner": "Requiem TaroNuke",
+              "jacketDesigner": "すずなし",
+              "rating": 9
+            }
+          ]
+        }
+        ,
+        {
+          "id": "izana",
+          "title_localized": {
+            "en": "IZANA"
+          },
+          "artist": "t+pazolite vs P*Light",
+          "bpm": "222",
+          "bpm_base": 222,
+          "set": "single",
+          "purchase": "izana",
+          "audioPreview": 0,
+          "audioPreviewEnd": 0,
+          "side": 0,
+          "bg": "tanoc_light",
+          "remote_dl": true,
+          "world_unlock": false,
+          "date": 1579478402,
+          "difficulties": [
+            {
+              "ratingClass": 0,
+              "chartDesigner": "NITRO",
+              "jacketDesigner": "Nagu",
+              "rating": 5
+            },
+            {
+              "ratingClass": 1,
+              "chartDesigner": "NITRO",
+              "jacketDesigner": "Nagu",
+              "rating": 8
+            },
+            {
+              "ratingClass": 2,
+              "chartDesigner": "NITRO",
+              "jacketDesigner": "Nagu",
+              "rating": 10
+            }
+          ]
+        }
+        ,
+        {
+          "id": "saikyostronger",
+          "title_localized": {
+            "en": "SAIKYO STRONGER",
+            "ja": "最強STRONGER"
+          },
+          "artist": "REDALiCE vs USAO",
+          "bpm": "205",
+          "bpm_base": 205,
+          "set": "single",
+          "purchase": "saikyostronger",
+          "audioPreview": 0,
+          "audioPreviewEnd": 0,
+          "side": 1,
+          "bg": "saikyostronger",
+          "remote_dl": true,
+          "world_unlock": false,
+          "date": 1579478403,
+          "difficulties": [
+            {
+              "ratingClass": 0,
+              "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
+              "jacketDesigner": "KEI",
+              "rating": 5
+            },
+            {
+              "ratingClass": 1,
+              "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
+              "jacketDesigner": "KEI",
+              "rating": 9
+            },
+            {
+              "ratingClass": 2,
+              "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
+              "jacketDesigner": "KEI",
+              "rating": 11
+            }
+          ]
+        }
     ]
 }
