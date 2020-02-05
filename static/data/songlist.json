@@ -6052,19 +6052,22 @@
               "ratingClass": 0,
               "chartDesigner": "Toaster",
               "jacketDesigner": "和音ハカ",
-              "rating": 3
+              "rating": 3,
+			  "detailed_rating": 3.5
             },
             {
               "ratingClass": 1,
               "chartDesigner": "Toaster",
               "jacketDesigner": "和音ハカ",
-              "rating": 6
+              "rating": 6,
+			  "detailed_rating": 6.5
             },
             {
               "ratingClass": 2,
               "chartDesigner": "Toaster",
               "jacketDesigner": "和音ハカ",
-              "rating": 9
+              "rating": 9,
+			  "detailed_rating": 9.2
             }
           ]
         }
@@ -6091,19 +6094,22 @@
               "ratingClass": 0,
               "chartDesigner": "Requiem TaroNuke",
               "jacketDesigner": "すずなし",
-              "rating": 4
+              "rating": 4,
+			  "detailed_rating": 4.0
             },
             {
               "ratingClass": 1,
               "chartDesigner": "Requiem TaroNuke",
               "jacketDesigner": "すずなし",
-              "rating": 7
+              "rating": 7,
+			  "detailed_rating": 7.0
             },
             {
               "ratingClass": 2,
               "chartDesigner": "Requiem TaroNuke",
               "jacketDesigner": "すずなし",
-              "rating": 9
+              "rating": 9,
+			  "detailed_rating": 9.9
             }
           ]
         }
@@ -6130,19 +6136,22 @@
               "ratingClass": 0,
               "chartDesigner": "NITRO",
               "jacketDesigner": "Nagu",
-              "rating": 5
+              "rating": 5,
+			  "detailed_rating": 5.0
             },
             {
               "ratingClass": 1,
               "chartDesigner": "NITRO",
               "jacketDesigner": "Nagu",
-              "rating": 8
+              "rating": 8,
+			  "detailed_rating": 8.3
             },
             {
               "ratingClass": 2,
               "chartDesigner": "NITRO",
               "jacketDesigner": "Nagu",
-              "rating": 10
+              "rating": 10,
+			  "detailed_rating": 10.1
             }
           ]
         }
@@ -6170,19 +6179,22 @@
               "ratingClass": 0,
               "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
               "jacketDesigner": "KEI",
-              "rating": 5
+              "rating": 5,
+			  "detailed_rating": 5.5
             },
             {
               "ratingClass": 1,
               "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
               "jacketDesigner": "KEI",
-              "rating": 9
+              "rating": 9,
+			  "detailed_rating": 9.3
             },
             {
               "ratingClass": 2,
               "chartDesigner": "最強FUMEN (夜浪 ft. 東星)",
               "jacketDesigner": "KEI",
-              "rating": 11
+              "rating": 11,
+			  "detailed_rating": 11.0
             }
           ]
         }
