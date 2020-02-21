@@ -6198,5 +6198,45 @@
             }
           ]
         }
+        {
+            "id": "worldexecuteme",
+            "title_localized": {
+              "en": "world.execute(me);"
+            },
+            "artist": "Mili",
+            "bpm": "130",
+            "bpm_base": 130,
+            "set": "base",
+            "purchase": "",
+            "audioPreview": 105230,
+            "audioPreviewEnd": 134269,
+            "side": 0,
+            "bg": "prelude_light",
+            "remote_dl": false,
+            "world_unlock": false,
+            "date": 1582243200,
+            "difficulties": [
+              {
+                "ratingClass": 0,
+                "chartDesigner": "toaster.chart(this);",
+                "jacketDesigner": "そゐち",
+                "rating": 3
+              },
+              {
+                "ratingClass": 1,
+                "chartDesigner": "toaster.chart(this);",
+                "jacketDesigner": "そゐち",
+                "rating": 5,
+                "detailed_rating": 5.5
+              },
+              {
+                "ratingClass": 2,
+                "chartDesigner": "toaster.chart(this);",
+                "jacketDesigner": "そゐち",
+                "rating": 8,
+                "detailed_rating": 8.4
+              }
+            ]
+          }
     ]
 }
