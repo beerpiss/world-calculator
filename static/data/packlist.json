@@ -13,17 +13,45 @@
       }
     },
     {
+      "id": "extend",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "World Extend"
+      },
+      "description_localized": {
+        "en": "Purchase this pack to obtain all\n\"World Extend\" songs.\n\nFuture songs added to \"World Extend\"\nwill be instantly unlocked at no cost.\nLimited-time maps may still be played\nfor other rewards.",
+        "ja": "この楽曲パックを購入すると、\n「World Extend」の配信曲を全入手できます。\n\n購入後、今後の「World Extend」配信楽曲も\nすぐに追加課金なしで解禁されます。\nまた、購入後も曲以外の報酬を目的に、\n期間限定マップで遊ぶことも可能です。",
+        "ko": "이 팩을 통해 \"World Extend\" 에 포함될\n모든 곡을 얻을 수 있습니다.\n\n향후 \"World Extend\" 에 추가될\n신곡들을 별도 제한 없이 잠금해제됩니다.\n그 외의 맵 보상도 계속해서 한정기간동안\n플레이하여 얻을 수 있습니다.",
+        "zh-Hant": "購買此曲包後，將立即解鎖所有\n“World Extend”中的曲目。\n\n購入成功後，未來加入此處的曲目\n也將瞬間解鎖（完全免費）。\n擁有額外獎勵的活動地圖\n在購買此曲包後仍將正常開放。",
+        "zh-Hans": "购买此曲包后，将立即解锁所有\n“World Extend”中的曲目。\n\n购入成功后，未来加入此处的曲目\n也将瞬间解锁（完全免费）。\n拥有额外奖励的活动地图\n在购买此曲包后仍将正常开放。"
+      }
+    },
+    {
+      "id": "vs",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "Black Fate"
+      },
+      "description_localized": {
+        "en": "A storm fast approaches.\nReconciliation may not be possible.\nIs this the only destiny afforded them?\nWhat truth will they find at the end of their paths?\n\nA continuation of the main story of Arcaea.\nIt's suggested to play other main story packs first.",
+        "ja": "嵐は来る――すぐに近くまで。\n和解はきっと、できないかもしれない。\nこれが唯一、許される運命なのだろうか。\n選んだ道の先、二人が見出す真実とは――。\n\nArcaeaメインストーリーの続編です。\nここまでの物語をクリアの後、購入を推奨します。",
+        "ko": "빠르게 다가오는 폭풍.\n아마도 불가능해 보이는 화해.\n이것이 그들에게 주어진 유일한 운명인가?\n그 여정의 끝자락에서 발견하게 될 진리는 무엇인가?\n\n이어지는 아르케아의 메인 스토리.\n다른 메인 스토리 팩을 먼저 플레이 해보시길 추천드립니다.",
+        "zh-Hant": "一場暴風雨正呼嘯而來。\n妥協的可能性，或許並不存在。\n一切，真的只是命中註定嗎？\n在終點站等待著少女們的，究竟是怎樣的真理？\n\n韻律源點主線故事的下一篇章。\n在此之前，強烈建議先遊玩過去的故事包。",
+        "zh-Hans": "一场暴风雨正呼啸而来。\n妥协的可能性，或许并不存在。\n一切，真的只是命中注定吗？\n在终点站等待着少女们的，究竟是怎样的真理？\n\n韵律源点主线故事的下一篇章。\n在此之前，强烈建议先游玩过去的故事包。"
+      }
+    },
+    {
       "id": "prelude",
       "plus_character": -1,
       "name_localized": {
         "en": "Adverse Prelude"
       },
       "description_localized": {
-        "en": "A meandering journey,\nan impossible meeting.\nOne is of light, the other conflict—\nand now their fates intertwine.\n\nFour new monumental songs stand ready,\nwherever this meeting may lead...",
-        "ja": "果てなき旅路の最中、\n叶い得なかった邂逅。\n一方は白き少女、もう一方には黒き少女。\n―――――そして今、2つの宿命が1つに交わる。\n\nここに在りしは不朽の楽曲が4つ、\n邂逅が導くのはいずこなりや？",
-        "ko": "정처없는 여정,\n있을 수 없는 만남.\n하나의 빛과, 또 다른 대립,\n그리고 지금, 뒤얽히는 그들의 운명.\n\n새롭게 준비된 상징적인 4곡들,\n이 만남이 이끌어가는 곳 어디든..",
-        "zh-Hant": "一段蜿蜒曲折的旅途，\n一場不可思議的邂逅。\n一由光芒環抱，一則纏繞紛爭——\n少女們的命運，將於此刻交織。\n\n四首重量級的全新樂曲，\n將隨這場相遇席捲而來……",
-        "zh-Hans": "一段蜿蜒曲折的旅途，\n一场不可思议的邂逅。\n一由光芒环抱，一则缠绕纷争——\n少女们的命运，将于此刻交织。\n\n四首重量级的全新乐曲，\n将随这场相遇席卷而来……"
+        "en": "A meandering journey,\nan impossible meeting.\nOne is of light, the other conflict—\nand now their fates intertwine.\n\nFive new monumental songs stand ready,\nwherever this meeting may lead...",
+        "ja": "果てなき旅路の最中、\n叶い得なかった邂逅。\n一方は白き少女、もう一方には黒き少女。\n―――――そして今、2つの宿命が1つに交わる。\n\nここに在りしは不朽の楽曲が5つ、\n邂逅が導くのはいずこなりや？",
+        "ko": "정처없는 여정,\n있을 수 없는 만남.\n하나의 빛과, 또 다른 대립,\n그리고 지금, 뒤얽히는 그들의 운명.\n\n새롭게 준비된 상징적인 5곡들,\n이 만남이 이끌어가는 곳 어디든..",
+        "zh-Hant": "一段蜿蜒曲折的旅途，\n一場不可思議的邂逅。\n一由光芒環抱，一則纏繞紛爭——\n少女們的命運，將於此刻交織。\n\n五首重量級的全新樂曲，\n將隨這場相遇席捲而來……",
+        "zh-Hans": "一段蜿蜒曲折的旅途，\n一场不可思议的邂逅。\n一由光芒环抱，一则缠绕纷争——\n少女们的命运，将于此刻交织。\n\n五首重量级的全新乐曲，\n将随这场相遇席卷而来……"
       }
     },
     {
@@ -69,6 +97,80 @@
       }
     },
     {
+      "id": "observer",
+      "plus_character": 45,
+      "custom_banner": true,
+      "name_localized": {
+        "en": "Esoteric Order"
+      },
+      "description_localized": {
+        "en": "A girl stands, alone, at the\nvery ends of the Arcaea world,\nbeyond what anyone else has seen...\n\nFeaturing Lagrange and Charon,\nthis pack includes five winners\nof the Arcaea Song Contest 2020!",
+        "ja": "世界の果て、前人未踏のその場所で、\n佇む少女が、ただひとり。\n\nラグランジュとカロンをテーマに、\nArcaea楽曲コンテスト2020より、\n本楽曲パックでは5つの受賞曲を収録！",
+        "ko": "한 소녀가\n누구도 보지 못한\n아르케아의 끝머리에 홀로 서있다...\n\n라그란지와 차론을 포함한\n이번 팩은 아르케아 송 콘테스트 2020의\n다섯 명의 우승자도 추가되어 있습니다!",
+        "zh-Hant": "一名少女，\n在所有人都看不見的地方，\n孤零零地站在Arcaea世界的盡頭……\n\n與拉格蘭和凱倫一起，\n享受《韻律源點2020年歌曲競賽》\n帶來的五首優勝作品吧！",
+        "zh-Hans": "一名少女，\n在所有人都看不见的地方，\n孤零零地站在Arcaea世界的尽头……\n\n与拉格兰和卡戎一起，\n享受《韵律源点2020年歌曲竞赛》\n带来的五首优胜作品吧！"
+      }
+    },
+    {
+      "id": "observer_append_1",
+      "pack_parent": "observer",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "Pale Tapestry"
+      },
+      "description_localized": {
+        "en": "The tapestry extends, far, far\ninto the distance, until...\n\nDiscover three additional songs\nin this addition to Esoteric Order,\nall winners of the Arcaea Song Contest 2020!",
+        "ja": "彼方を超えて広がる、世界という織物。\n遠く遠く、その果ては――。\n\nEsoteric Orderに加わる、\nArcaea楽曲コンテスト2020受賞曲、\n3つの新曲を目撃せよ！",
+        "ko": "태피스트리가 멀리,\n아주 먼 곳까지 이어지는데...\n이번 Esoteric Order 팩 속에\n3가지 추가 악곡을 만나보세요.\n아르케아 송 콘테스트 2020의 우승작입니다!",
+        "zh-Hant": "美麗的織錦向外延伸，\n越來越遠，直到那之後……\n\n在“Esoteric Order”的附加篇章中，\n體驗《韻律源點2020年歌曲競賽》的\n另外三首優勝作品！",
+        "zh-Hans": "美丽的织锦向外延伸，\n越来越远，直到那之后……\n\n在“Esoteric Order”的附加篇章中，\n体验《韵律源点2020年歌曲竞赛》的\n另外三首优胜作品！"
+      }
+    },
+    {
+      "id": "observer_append_2",
+      "pack_parent": "observer",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "Light of Salvation"
+      },
+      "description_localized": {
+        "en": "A divine light appears in the\nendless void, guiding the way\nback to the world of light and conflict...\n\nThree more songs, all winners of the\nArcaea Song Contest 2020, have\narrived in this addition to Esoteric Order.",
+        "ja": "光と対立の世界へと導く、\n終わりなき虚無に、現れた天啓。\n\n『Esoteric Order』に加わる、新たな光。\nArcaea楽曲コンテスト2020、\n受賞曲から新たに3曲が登場。",
+        "ko": "신성한 빛이 등장하여,\n영원한 어둠 속을 안내한다,\n다시 빛과 갈등의 세계 속으로...\n\n이번 Esoteric Order과 함께\n아르케아 송 콘테스트 2020의 우승자의 \n3가지 곡이 추가됐습니다.",
+        "zh-Hant": "一道神聖的光芒閃亮於無盡的虛空之中，\n指引出返迴光與對立的世界的道路……\n\n《韻律源點2020年歌曲競賽》的另外三首獲獎歌曲，\n現已作為“Esoteric Order”的附加篇章而到來！",
+        "zh-Hans": "一道神圣的光芒闪亮于无尽的虚空之中，\n指引出返回光与对立的世界的道路……\n\n《韵律源点2020年歌曲竞赛》的另外三首获奖歌曲，\n现已作为“Esoteric Order”的附加篇章而到来！"
+      }
+    },
+    {
+      "id": "alice",
+      "plus_character": 39,
+      "name_localized": {
+        "en": "Ephemeral Page"
+      },
+      "description_localized": {
+        "en": "Reality seems constantly within reach,\nyet it can never truly be grasped...\n\nDiscover truths and falsehoods alike\nas you travel with Alice and Tenniel,\nexperiencing five brand-new stylish\nand upbeat songs along the way.",
+        "ja": "常に手が届きそうに思えても、\n真に現実を掴むことなど誰にも\n出来はしない。\n\n真実と虚実が入り交じる、\nアリスとテニエルの旅を追いかけよう\nスタイリッシュなアップビートを道連れに。",
+        "ko": "현실은 언제나 손에 닿을것만 같은 거리에,\n하지만 진정으로 이해할 수 없는...\n\n앨리스와 테니얼을 따라 함께\n진실과 거짓을 함께 발견하며\n그길을 따라 들려오는 경쾌한\n새로운 다섯가지 비트 스타일.",
+        "zh-Hant": "現實總是看似近在咫尺，\n但卻又虛無縹緲、捉摸不定……\n\n探掘真相與謊言，\n跟隨愛麗絲和坦尼爾的腳步，\n體驗五首別具特色的動感曲目，\n並沉浸在音樂的世界當中。",
+        "zh-Hans": "现实看似触手可及，\n却始终求之不得……\n\n在爱丽丝与坦尼尔的旅途中\n揭开真相与谎言，\n同时体验五首风格鲜明的动感乐曲，\n并沉浸在音乐的世界当中。"
+      }
+    },
+    {
+      "id": "alice_append_1",
+      "pack_parent": "alice",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "The Journey Onwards"
+      },
+      "description_localized": {
+        "en": "The journey of discovery is neverending...\n\nExplore three more songs by Alice's side\nin this addition to Ephemeral Page\nas the scenery of Arcaea passes by endlessly.",
+        "ja": "探求の旅路、そこに終わりは訪れない。\n\nアリスと巡る3つの新曲。\n『Ephemeral Page』に加わる新たな頁。\nそしてArcaeaの情景は果てなく流れていく。",
+        "ko": "탐색의 여정은 끝나지 않습니다...\n\n앨리스의 옆을 함께하며 \"Ephemeral Page\"에\n추가될 3곡을 더 찾아 보세요.\n아르케아의 풍경이 끝없이 지나갈 때 말이죠.",
+        "zh-Hant": "探索的旅程沒有盡頭……\n\n在「Ephemeral Page」的附加內容當中，\n隨著愛麗絲的腳步共同探索其他三首曲目，\n並欣賞《韻律源點》那無窮無盡的美麗景色。",
+        "zh-Hans": "探索之旅永无止境……\n\n在“Ephemeral Page”的附加篇章中\n体验爱丽丝视角的三首歌曲\n并领略韵律源点中无尽变幻的风景。"
+      }
+    },
+    {
       "id": "omatsuri",
       "custom_banner": true,
       "plus_character": 30,
@@ -78,7 +180,7 @@
       "description_localized": {
         "en": "Wishes granted, and dreams fulfilled.\nA festival spans the day and reaches\ninto the night: a celebration of sound...\n\nJoin Kanae as you walk from song to song—\nall five of them winners of Arcaea Song Contest 2019!",
         "ja": "願いは聞き入れられ、そして夢々は叶えられた。\n祭りは一日行われ、音の祭典を連れて\n夜へと続く勢いだ。\n\n叶永(かなえ)を連れて曲から曲へ。\nArcaea楽曲コンテスト2019の勝者がここに5つ！",
-        "ko": "인정받은 소원, 이루어진 꿈.\n축복하는 환호 속에서,\n축제는 하루종일 계속 되고..\n\n카나에와 함께 2019 아르케아 곡 콘테스트의\n우승작들을 하나하나씩 확인해 봅시다.",
+        "ko": "인정받은 소원, 이루어진 꿈.\n축복하는 환호 속에서,\n축제는 하루종일 계속 되고...\n\n카나에와 함께 2019 아르케아 곡 콘테스트의\n우승작들을 하나하나씩 확인해 봅시다.",
         "zh-Hant": "眾喣均求天遂。驀然回首，盡如人意。\n綺懷縈繞蒼穹。燈火輝煌，晝夜不息。\n這場喧鬧的慶典，將於此刻拉開帷幕。\n\n在群願的陪伴下，漫步於韻律與樂章的繁華街市——\n沉醉於五首《韻律源點2019年歌曲競賽》的優勝作品。",
         "zh-Hans": "众喣均求天遂。蓦然回首，尽如人意。\n绮怀萦绕苍穹。灯火辉煌，昼夜不息。\n这场喧闹的庆典，将于此刻拉开帷幕。\n\n在群愿的陪伴下，漫步于韵律与乐章的繁华街市——\n沉醉于五首《韵律源点2019年歌曲竞赛》的优胜作品。"
       }
@@ -140,6 +242,51 @@
       }
     },
     {
+      "id": "wacca",
+      "custom_banner": true,
+      "plus_character": 48,
+      "name_localized": {
+        "en": "WACCA"
+      },
+      "description_localized": {
+        "en": "Dive headfirst with Saya and Elizabeth\ninto Arcaea's collaboration with WACCA!\n\nFive songs from the hit arcade\ngame, including one brand-new\nremix, are waiting to run circles around you!",
+        "ja": "新パートナー『サヤ & エリザベス』と一緒に、\n待望のWACCAコラボへダイブ！！\n\nWACCAでおなじみの楽曲に、\nリミックス曲を加えた5曲構成！\nさあ、つなげよう、広げよう！",
+        "ko": "사야 & 엘리자베스와 함께 머리부터 퐁당\n아르케아와 WACCA의 컬래버레이션 속으로\n다이브 하자!\n\n인기 리듬게임 왓카의 곡 다섯 곡 이 선보이며,\n특별한 새로운 리믹스가 당신을 기다리고 있다!",
+        "zh-Hant": "和咲彌與伊莉莎白一起潛入這次\nArcaea與WACCA的合作活動吧！\n\n環繞在你周圍的，\n是來自這款火熱街機音遊的五首歌曲。\n這其中包括一首全新的remix歌曲喔！",
+        "zh-Hans": "和咲弥与伊莉莎白一起潜入这次\n韵律源点Arcaea与WACCA的联动吧！\n\n环绕在你周围的，\n是来自这款火热街机音游的五首歌曲。\n这其中包括一首全新的重混歌曲哦！"
+      }
+    },
+    {
+      "id": "maimai",
+      "custom_banner": true,
+      "plus_character": -1,
+      "name_localized": {
+        "en": "maimai"
+      },
+      "description_localized": {
+        "en": "Prepare for splashdown!\n\nThe popular rhythm game maimai\nbrings the heat to Arcaea!\nTake four iconic songs for a spin—\nbut don't get pulled under!",
+        "ja": "さあ、着水に備えろ！\n\n人気リズムゲーム『maimai』から、\nArcaeaに熱狂が届く！\n乗りこなせ、maimaiらしい4曲！\n呑まれるな、この熱気に！",
+        "ko": "스플래시다운 준비!!\n\n인기 리듬게임 마이마이가\n아르케아를 달아오르게 합니다!\n상징적인 새로운 4곡에 빠져봅시다.\n다만, 아래쪽으로 끌려가진 마세요!",
+        "zh-Hant": "做好準備讓水花四濺！\n\n超人氣節奏遊戲《maimai》\n即將引爆韻律源點Arcaea的熱浪！\n體驗四首經典曲目，\n但小心不要被拖下水！",
+        "zh-Hans": "做好准备让水花四溅！\n\n大受欢迎的节奏游戏maimai\n为韵律源点Arcaea掀起了新的热浪！\n千万不要错过四首标志性的\n曲目——但不要被拖下水！"
+      }
+    },
+    {
+      "id": "ongeki",
+      "custom_banner": true,
+      "plus_character": 40,
+      "name_localized": {
+        "en": "O.N.G.E.K.I."
+      },
+      "description_localized": {
+        "en": "A new type of battle that has\nnever been seen before has come to Arcaea...\n\nFour stunning songs from O.N.G.E.K.I.\nhave landed! With Luna and Mia at your side—\n\nLet's SHOOT!",
+        "ja": "Arcaeaへと訪れる、未だ見ぬ闘争――。\n\nオンゲキより、衝撃の4曲が到来。\nルナと美亜のコンビと一緒に、\nLet's SHOOT！",
+        "ko": "지금껏 아르케아에서\n보지못한 새로운 형태의 전장...\n\nO.N.G.E.K.I. 의 멋진 4곡이\n루나와 미아가 함께 착륙했습니다!\nLet's SHOOT!",
+        "zh-Hant": "前所未見的全新戰鬥\n形式即將降臨韻律源點Arcaea……\n\nO.N.G.E.K.I. 的\n四首精彩曲目現已登場！\n跟隨露娜與美亞的腳步——\n一起盛大出擊吧！",
+        "zh-Hans": "一种在韵律源点Arcaea\n从未出现过的全新战斗方式……\n\n四首来自O.N.G.E.K.I.的\n精彩曲目现已登陆！\n以 露娜 & 美亚 作为搭档一同出击！"
+      }
+    },
+    {
       "id": "chunithm",
       "custom_banner": true,
       "plus_character": 24,
@@ -147,11 +294,26 @@
         "en": "CHUNITHM"
       },
       "description_localized": {
-        "en": "From over the horizon come three\npowerful new songs from SEGA's arcade\nrhythm game CHUNITHM!\n\nJoin Tairitsu and Chuni Penguin as\nyou take on this monumental challenge!",
-        "ja": "地平線の向こうから、\n3つの強力な楽曲がやってくる…！\nSEGAのアーケードリズムゲーム、\nCHUNITHMとのコラボレーション！\n\n対立とチュウニペンギンと共に、\n難敵たちに挑戦しよう！",
-        "ko": "3곡의 새로운 음악이\nSEGA의 아케이드 리듬게임 'CHUNITHM'을 통해\n수평선 너머에서 강하게 접근 중!\n\n타이리츠와 츄니펭귄과 함께,\n기념이 될 만한 엄청난 도전에 참여하세요!",
-        "zh-Hant": "三首來自世嘉開發的街機節奏遊戲\n《CHUNITHM》的震撼新曲\n已於天際展露鋒芒！\n\n跟隨對立與中二企鵝一起\n共同開始這一系列里程碑式的挑戰！",
-        "zh-Hans": "三首来自世嘉开发的街机节奏游戏\n《CHUNITHM》的震撼新曲\n已于天际展露锋芒！\n\n跟随对立与中二企鹅一起\n共同开始这一系列里程碑式的挑战！"
+        "en": "From over the horizon come three\npowerful new songs from the arcade\nrhythm game CHUNITHM!\n\nJoin Tairitsu and Chuni Penguin as\nyou take on this monumental challenge!",
+        "ja": "地平線の向こうはアーケードから、\n3つの強力な楽曲がやってくる――。\nあのCHUNITHMとArcaeaがコラボ！\n\n対立とチュウニペンギンと共に、\n難敵たちに挑戦しよう！",
+        "ko": "3곡의 새로운 음악이\n아케이드 리듬게임 'CHUNITHM'을 통해\n수평선 너머에서 강하게 접근 중!\n\n타이리츠와 츄니펭귄과 함께,\n기념이 될 만한 엄청난 도전에 참여하세요!",
+        "zh-Hant": "三首來自街機節奏遊戲\n《CHUNITHM》的震撼新曲\n已於天際展露鋒芒！\n\n跟隨對立與中二企鵝一起\n共同開始這一系列里程碑式的挑戰！",
+        "zh-Hans": "三首来自街机节奏游戏\n《CHUNITHM》的震撼新曲\n已于天际展露锋芒！\n\n跟随对立与中二企鹅一起\n共同开始这一系列里程碑式的挑战！"
+      }
+    },
+    {
+      "id": "chunithm_append_1",
+      "pack_parent": "chunithm",
+      "plus_character": -1,
+      "name_localized": {
+        "en": "Collaboration Chapter 2"
+      },
+      "description_localized": {
+        "en": "Three new and unrelenting songs\nhave arrived in this major update\nto the CHUNITHM collaboration!\n\nAnd this time, even the gods\nwill show no mercy...",
+        "ja": "新しく、容赦などない三曲が\nCHUNITHMより襲来！\n\nまた一度、CHUNITHMが帰ってきた。\nそして此度は、神さえ慈悲を棄てるだろう。",
+        "ko": "신선하면서도 가혹하기 그지없는\n3곡이 츄니즘 콜라보레이션의\n메인 곡으로 찾아왔습니다!\n\n이번에도 그 신들은,\n무자비한 모습으로...",
+        "zh-Hant": "本次 CHUNITHM 合作活動的大型更新\n推出了三首氣勢磅礡的全新曲目！\n\n而且這次就連上帝也不會心慈手軟……",
+        "zh-Hans": "本次 CHUNITHM 联动的大型更新\n将推出三首全新的高难度曲目！\n\n而这次，即使是众神也不再有怜悯……"
       }
     },
     {
@@ -162,11 +324,11 @@
         "en": "Groove Coaster"
       },
       "description_localized": {
-        "en": "Five stunning new songs await you in\nArcaea's collaboration with Groove Coaster!\n\nFollow Hikari and Seine along\na new path under the starry skies!",
-        "ja": "グルーヴコースターとArcaeaの\nコラボレーションにて、\n5つの新曲が君を待つ！\n\nセイネとヒカリと共に、\n星降る夜空へと繰り出そう！",
-        "ko": "다섯곡의 멋진 신곡이 Arcaea와\nGroove Coaster의 콜라보레이션으로!!\n\n별이 빛나는 하늘 아래, 히카리와 세니에를 따라\n새로운 여정을 떠나봅시다!",
-        "zh-Hant": "五首美妙的新樂曲\n正在Arcaea與音樂遊戲\n《節奏過山車（Groove Coaster）》\n的合作樂曲包中等待著你！\n\n跟隨光與晴音踏上\n那唯美星空之下的嶄新小徑！",
-        "zh-Hans": "五首美妙的新歌曲正在Arcaea与音乐游戏\n《节奏过山车（Groove Coaster）》\n的合作歌曲包中等待着你！\n\n跟随光与晴音踏上\n那唯美星空之下的崭新小径！"
+        "en": "Six stunning new songs await you in\nArcaea's collaboration with Groove Coaster!\n\nFollow Hikari and Seine along\na new path under the starry skies!",
+        "ja": "グルーヴコースターとArcaeaの\nコラボレーションにて、\n6つの新曲が君を待つ！\n\nセイネとヒカリと共に、\n星降る夜空へと繰り出そう！",
+        "ko": "여섯곡의 멋진 신곡이 Arcaea와\nGroove Coaster의 콜라보레이션으로!!\n\n별이 빛나는 하늘 아래, 히카리와 세니에를 따라\n새로운 여정을 떠나봅시다!",
+        "zh-Hant": "六首美妙的新樂曲\n正在Arcaea與音樂遊戲\n《節奏過山車（Groove Coaster）》\n的合作樂曲包中等待著你！\n\n跟隨光與晴音踏上\n那唯美星空之下的嶄新小徑！",
+        "zh-Hans": "六首美妙的新歌曲正在Arcaea与音乐游戏\n《节奏过山车（Groove Coaster）》\n的合作歌曲包中等待着你！\n\n跟随光与晴音踏上\n那唯美星空之下的崭新小径！"
       }
     },
     {
