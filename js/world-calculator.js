@@ -7,7 +7,7 @@ var lang_ko = {
     "scoreRange": "점수 범위",
     "impossiblePartner": "해당 파트너는 지정한 범위만큼 이동하는 것이 불가능합니다 :(",
     "noSongs": "해당 범위만큼 전진할 수 있도록 하는 곡이 존재하지 않습니다. :(",
-    "jsonPath": "static/data/songlist.json"
+    "jsonPath": "../static/data/songlist.json"
 }
 
 
@@ -20,7 +20,7 @@ var lang_en = {
     "scoreRange": "Score range",
     "impossiblePartner": "Selected Partner is impossible to progress desired range :(",
     "noSongs": "No songs available to progress desired range :(",
-    "jsonPath": "../static/data/songlist.json"
+    "jsonPath": "static/data/songlist.json"
 }
 
 function ln(lang, index) {
