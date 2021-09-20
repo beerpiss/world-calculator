@@ -24,10 +24,10 @@ var lang_en = {
 }
 
 function ln(lang, index) {
-    if(lang == "en") {
-        return lang_en[index];
+    if(lang == "ko") {
+        return lang_ko[index];
     }
-    return lang_ko[index];
+    return lang_en[index];
 }
 
 
