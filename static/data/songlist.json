@@ -221,9 +221,9 @@
       "id": "clotho",
       "title_localized": {
         "en": "Clotho and the stargazer",
-        "ja": "?????????????????????????????????"
+        "ja": "クロートーと星の観測者"
       },
-      "artist": "????????????",
+      "artist": "しーけー",
       "bpm": "230",
       "bpm_base": 230,
       "set": "base",
@@ -237,21 +237,21 @@
       "difficulties": [
         {
           "ratingClass": 0,
-          "chartDesigner": "?????????",
+          "chartDesigner": "小東星",
           "jacketDesigner": "yoshimo",
           "rating": 2,
           "detailed_rating": 2
         },
         {
           "ratingClass": 1,
-          "chartDesigner": "?????????",
+          "chartDesigner": "小東星",
           "jacketDesigner": "yoshimo",
           "rating": 5,
           "detailed_rating": 5
         },
         {
           "ratingClass": 2,
-          "chartDesigner": "?????????",
+          "chartDesigner": "小東星",
           "jacketDesigner": "yoshimo",
           "rating": 7,
           "detailed_rating": 7.5
@@ -446,7 +446,7 @@
       "title_localized": {
         "en": "Moonlight of Sand Castle"
       },
-      "artist": "??????E",
+      "artist": "旅人E",
       "bpm": "160",
       "bpm_base": 160,
       "set": "dynamix",
@@ -572,7 +572,7 @@
       "id": "romancewars",
       "title_localized": {
         "en": "Romance Wars",
-        "ja": "vs????????????"
+        "ja": "vsキミ戦争"
       },
       "artist": "U-ske (feat. lueur)",
       "bpm": "187",
@@ -1167,7 +1167,7 @@
       "title_localized": {
         "en": "Tie me down gently"
       },
-      "artist": "??????????????? feat. ???????????????",
+      "artist": "溝口ゆうま feat. 大瀬良あい",
       "bpm": "191",
       "bpm_base": 191,
       "set": "omatsuri",
@@ -1346,7 +1346,7 @@
       "title_localized": {
         "en": "Moonheart"
       },
-      "artist": "???????????????",
+      "artist": "翡乃イスカ",
       "bpm": "180",
       "bpm_base": 180,
       "set": "mirai",
@@ -1396,7 +1396,7 @@
       "title_localized": {
         "en": "Purgatorium"
       },
-      "artist": "?????????????????????",
+      "artist": "お月さま交響曲",
       "bpm": "150",
       "bpm_base": 150,
       "set": "base",
@@ -2117,7 +2117,7 @@
       "title_localized": {
         "en": "Beside You"
       },
-      "artist": "????????????",
+      "artist": "江口孝宏",
       "bpm": "181",
       "bpm_base": 181,
       "set": "alice_append_1",
@@ -2637,9 +2637,9 @@
       "id": "mazenine",
       "title_localized": {
         "en": "Maze No.9",
-        "ja": "??????????????????"
+        "ja": "九番目の迷路"
       },
-      "artist": "???????????????????????????????????????",
+      "artist": "アリスシャッハと魔法の楽団",
       "bpm": "159",
       "bpm_base": 159,
       "set": "rei",
@@ -2654,22 +2654,22 @@
       "difficulties": [
         {
           "ratingClass": 0,
-          "chartDesigner": "?????????",
-          "jacketDesigner": "???????????????????????????????????????",
+          "chartDesigner": "小東星",
+          "jacketDesigner": "アリスシャッハと魔法の楽団",
           "rating": 3,
           "detailed_rating": 3
         },
         {
           "ratingClass": 1,
-          "chartDesigner": "?????????",
-          "jacketDesigner": "???????????????????????????????????????",
+          "chartDesigner": "小東星",
+          "jacketDesigner": "アリスシャッハと魔法の楽団",
           "rating": 3,
           "detailed_rating": 3.5
         },
         {
           "ratingClass": 2,
-          "chartDesigner": "?????????",
-          "jacketDesigner": "???????????????????????????????????????",
+          "chartDesigner": "小東星",
+          "jacketDesigner": "アリスシャッハと魔法の楽団",
           "rating": 8,
           "detailed_rating": 8.9
         }
@@ -2894,9 +2894,9 @@
       "id": "flyburg",
       "title_localized": {
         "en": "Flyburg and Endroll",
-        "ja": "???????????????????????????????????????"
+        "ja": "フライブルクとエンドロウル"
       },
-      "artist": "???????????????????????????????????????",
+      "artist": "アリスシャッハと魔法の楽団",
       "bpm": "180",
       "bpm_base": 180,
       "set": "shiawase",
@@ -2937,7 +2937,7 @@
       "title_localized": {
         "en": "Give Me a Nightmare"
       },
-      "artist": "???????????????????????????????????????",
+      "artist": "アリスシャッハと魔法の楽団",
       "bpm": "95-190",
       "bpm_base": 190,
       "set": "extend",
@@ -3020,9 +3020,9 @@
       "id": "kanagawa",
       "title_localized": {
         "en": "Kanagawa Cyber Culvert",
-        "ja": "?????????????????????"
+        "ja": "神奈川電脳暗渠"
       },
-      "artist": "?????????",
+      "artist": "南ゆに",
       "bpm": "180",
       "bpm_base": 180,
       "set": "base",
@@ -3146,7 +3146,7 @@
       "title_localized": {
         "en": "Chronostasis"
       },
-      "artist": "?????????",
+      "artist": "黒皇帝",
       "bpm": "196",
       "bpm_base": 196,
       "set": "base",
@@ -3403,7 +3403,7 @@
       "title_localized": {
         "en": "Small Cloud Sugar Candy"
       },
-      "artist": "????????? x Aoi feat.????????????",
+      "artist": "テヅカ x Aoi feat.桃雛なの",
       "bpm": "220",
       "bpm_base": 220,
       "set": "observer_append_2",
@@ -3787,7 +3787,7 @@
         "en": "Can I Friend You on Bassbook? Lol",
         "ja": "????????????????????????????????????"
       },
-      "artist": "???????????? feat. ????????????",
+      "artist": "かめりあ feat. ななひら",
       "bpm": "128",
       "bpm_base": 128,
       "set": "single",
@@ -3828,9 +3828,9 @@
       "id": "kyogenkigo",
       "title_localized": {
         "en": "False Embellishment",
-        "ja": "????????????"
+        "ja": "狂言綺語"
       },
-      "artist": "????????? & ikaruga_nex",
+      "artist": "影虎。 & ikaruga_nex",
       "bpm": "155",
       "bpm_base": 155,
       "set": "extend",
@@ -4826,7 +4826,7 @@
       "title_localized": {
         "en": "Party Vinyl"
       },
-      "artist": "?????????????????????",
+      "artist": "モリモリあつし",
       "bpm": "132",
       "bpm_base": 132,
       "set": "shiawase",
@@ -5128,7 +5128,7 @@
       "title_localized": {
         "en": "carmine:scythe"
       },
-      "artist": "?????????",
+      "artist": "かゆき",
       "bpm": "165",
       "bpm_base": 165,
       "set": "single",
@@ -5169,7 +5169,7 @@
       "title_localized": {
         "en": "Dreamin' Attraction!!"
       },
-      "artist": "???????????????",
+      "artist": "翡乃イスカ",
       "bpm": "205",
       "bpm_base": 205,
       "set": "base",
@@ -5418,9 +5418,9 @@
       "id": "melodyoflove",
       "title_localized": {
         "en": "A Wandering Melody of Love",
-        "ja": "???????????????????????????"
+        "ja": "迷える音色は恋の唄"
       },
-      "artist": "?????????P??nchii?????? feat.?????????",
+      "artist": "からとPαnchii少年 feat.はるの",
       "bpm": "165",
       "bpm_base": 165,
       "set": "omatsuri",
@@ -6082,7 +6082,7 @@
       "title_localized": {
         "en": "Sulfur"
       },
-      "artist": "????????????",
+      "artist": "ぺのれり",
       "bpm": "182",
       "bpm_base": 182,
       "set": "rei",
@@ -6783,7 +6783,7 @@
       "title_localized": {
         "en": "7thSense"
       },
-      "artist": "??????",
+      "artist": "削除",
       "bpm": "150",
       "bpm_base": 150,
       "set": "maimai",
@@ -6922,7 +6922,7 @@
         "en": "Bamboo",
         "ja": "???"
       },
-      "artist": "?????? feat.?????????",
+      "artist": "立秋 feat.ちょこ",
       "bpm": "5-315",
       "bpm_base": 219,
       "set": "extend",
@@ -7051,7 +7051,7 @@
       "title_localized": {
         "en": "HIVEMIND"
       },
-      "artist": "????????????",
+      "artist": "かたぎり",
       "bpm": "252",
       "bpm_base": 252,
       "set": "extend",
@@ -7859,7 +7859,7 @@
       "title_localized": {
         "en": "Nirv lucE"
       },
-      "artist": "????????????",
+      "artist": "しーけー",
       "bpm": "260",
       "bpm_base": 260,
       "set": "shiawase",
@@ -7900,7 +7900,7 @@
       "title_localized": {
         "en": "AttraqtiA"
       },
-      "artist": "????????????",
+      "artist": "かめりあ",
       "bpm": "202",
       "bpm_base": 202,
       "set": "single",
@@ -8031,9 +8031,9 @@
       "id": "toaliceliddell",
       "title_localized": {
         "en": "To: Alice Liddell",
-        "ja": "??????????????????????????????"
+        "ja": "アリス・リデルに捧ぐ"
       },
-      "artist": "?????????????????????",
+      "artist": "モリモリあつし",
       "bpm": "222",
       "bpm_base": 222,
       "set": "alice_append_1",
@@ -8168,9 +8168,9 @@
       "id": "ikazuchi",
       "title_localized": {
         "en": "Ikazuchi",
-        "ja": "??????"
+        "ja": "怒槌"
       },
-      "artist": "????????????",
+      "artist": "光吉猛修",
       "bpm": "200",
       "bpm_base": 200,
       "set": "chunithm",
@@ -9068,7 +9068,7 @@
       "title_localized": {
         "en": "#1f1e33"
       },
-      "artist": "????????????(EDP)",
+      "artist": "かめりあ(EDP)",
       "bpm": "181",
       "bpm_base": 181,
       "set": "vs",
