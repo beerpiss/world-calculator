@@ -102,8 +102,8 @@ function calculate(l) {
                     score_string += score_max.toLocaleString();
                 }
                 var rating_string = charts[j]["rating"]
-                if(rating_string == 10) rating_string = "9+";
-                if(rating_string == 11) rating_string = "10";
+                var rating_plus = charts[j]["ratingPlus"]
+                if (rating_plus) rating_string += "+"
                 added = true;
                 chartAdded = true;
                 var colDiv = document.createElement("div");
