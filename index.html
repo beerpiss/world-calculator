@@ -2,35 +2,35 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Arcinfo World Calculator</title>
+        <title>Arcaea World Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="static/img/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="static/img/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="static/img/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="static/img/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="static/img/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../static/img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../static/img/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../static/img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../static/img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../static/img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../static/img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../static/img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../static/img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../static/img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
         <meta name="msapplication-TileColor" content="#F48FB1">
-        <meta name="msapplication-TileImage" content="static/img/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="../static/img/ms-icon-144x144.png">
         <meta name="theme-color" content="#F48FB1">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="js/world-calculator.js"></script>
+        <script src="../js/world-calculator.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
-            <a class="navbar-brand geosans" href="#"><img src="static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+            <a class="navbar-brand geosans" href="#"><img src="../static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">World Calculator</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,103 +38,108 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="en">EN</a>
+                        <a class="nav-link" href="ko">KO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="changelog-view" data-toggle="modal" data-target="#changelog">변경사항</a>
+                        <a class="nav-link" href="#" id="changelog-view" data-toggle="modal" data-target="#changelog">Changelog</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="alert alert-info" role="alert">
-            이 월드 계산기는 더이상 업데이트되지 않습니다. <a href="https://arcinfo.eatsteak.xyz/worlds/calculator">이곳</a>을 이용해주세요.
-        </div>
         <div class="container">
             <div id="data-input">
                 <h1 class="geosans">World Calculator</h1>
-                <p>전진하고 싶은 만큼의 스텝 범위를 입력하고, 캐릭터 STEP 수치를 입력하면 어떤 곡을 어느 점수로 플레이 해야 할지 알려드립니다.</p>
+                <p>Enter step range to progress and partner's STEP stat. It will show you right score range for available songs.</p>
+                <p>Tip: To reach a specific tile, calculate the sum of all tiles from your location to the specific tile (inclusive) and reduce by 0.1.</p>
                 <div class="row">
                     <div class="col-md">
-                        <label for="step-to-forward-min">전진하고 싶은 스텝</label>
+                        <label for="step-to-forward-min">Step Range to Progress</label>
                         <div class="input-group">
-                            <input type="text" aria-label="최소 전진하고 싶은 스텝 수" id="step-to-forward-min" class="form-control">
+                            <input type="text" aria-label="Minimum step to progress" id="step-to-forward-min" class="form-control">
                             <div class="input-group-append">
                                 <span class="input-group-text">~</span>
                             </div>
-                            <input type="text" aria-label="최대 전진하고 싶은 스텝 수" id="step-to-forward-max" class="form-control">
+                            <input type="text" aria-label="Maximum step to progress" id="step-to-forward-max" class="form-control">
                             <div id="step-to-foward-invalid" class="invalid-feedback">
-                                입력값은 숫자여야 합니다.
+                                Input value is must be number.
                             </div>
                         </div>
                     </div>
                     <dlv class="col-md">
-                        <label for="character-step">파트너 STEP 수치</label>
-                        <input type="text" aria-label="파트너 STEP 수치" id="character-step" class="form-control">
+                        <label for="character-step">Partner's STEP stat</label>
+                        <input type="text" aria-label="Partner's STEP stat" id="character-step" class="form-control">
                         <div id="step-invalid" class="invalid-feedback">
-                            입력값은 숫자여야 합니다.
+                            Input value is must be number.
                         </div>
                     </dlv>
                     <div class="col-md">
-                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('ko');">확인</button>
+                        <button class="btn" style="background-color: #F48FB1; margin-top: 2rem;" onclick="calculate('en');">Calculate</button>
                     </div>
                 </div>
             </div>
             <hr>
             <div id="song-table">
-                <p>Ctrl+F 를 이용하여 원하는 곡을 검색하면 빠르게 찾을 수 있습니다.</p>
-                <p>하드게이지 클리어 실패는 2.5 * (파트너 STEP 수치 / 50) 으로 계산합니다.</p>
+                <p>Use Ctrl+F to find desired songs.</p>
+                <p>If your score is under 6m, 2.5 * (Partner's STEP stat / 50) is your step progress.</p>
             </div>
         </div>
         <footer>
-            <p>ⓒ2019 Arcinfo All right reserved.<p>
+            <p>Forked from <a href="https://github.com/arc-info/world-calculator">arc-info/world-calculator</a> under the MIT License.</p>
             <p>Game "Arcaea" and all related stuffs are owned by lowiro limited.</p>
         </footer>
         <!-- Modal -->
-        <div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="변경사항" aria-hidden="true">
+        <div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="Changelog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="changelog-title">변경사항</h5>
+                        <h5 class="modal-title" id="changelog-title">Changelog</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <h2>v1.0.0 - 2020/01/03</h2>
+                        <h2>v1.0.0 - 01/03/2020</h2>
                         <ul>
-                            <li>최초 릴리즈</li>
+                            <li>Inital release</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.1 - 2020/01/03</h2>
+                        <h2>v1.0.1 - 01/03/2020</h2>
                         <ul>
-                            <li>변경사항 추가</li>
-                            <li>너무 낮은 스텝을 가진 범위에서 점수를 달성해도 칸을 지나치게 되는 문제 수정</li>
+                            <li>Added changelog.</li>
+                            <li>Fixed improper results when User try to calculate with low step range.</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.2 - 2020/01/03</h2>
+                        <h2>v1.0.2 - 01/03/2020</h2>
                         <ul>
-                            <li>영어 지원</li>
+                            <li>Added English language.</li>
                         </ul>
                         <hr>
-                        <h2>v1.0.3 - 2020/01/04</h2>
+                        <h2>v1.0.3 - 01/04/2020</h2>
                         <ul>
-                            <li>곡 목록의 세부 난이도 항목에 입력한 파트너 STEP 수치에서 얻을 수 있는 최대 월드 스텝 수를 표시하도록 하였습니다.</li>
-                            <li>점수 범위에서 10000000점이 표시될 경우 10000000점 이상도 같은 월드 스텝 수를 얻을 수 있기 때문에 표기를 10000000 에서 PURE MEMORY 로 변경하였습니다.</li>
+                            <li>Now you can see Max. step progress in chart constant column.</li>
+                            <li>When max score in score range is 10000000, Now it's changed to 'PURE MEMORY' due to misunderstanding(You'll get same step progress when you get records over 10000000).</li>
                         </ul>
                         <hr>
-                        <h2>v1.1.0 - 2020/01/04</h2>
+                        <h2>v1.1.0 - 01/04/2020</h2>
                         <ul>
-                            <li>반응형 레이아웃이 적용되었습니다. 이에 따라 레이아웃을 표에서 자체 레이아웃으로 변경하였습니다.</li>
-                            <li>최대 월드 스텝 수 표시를 일시적으로 삭제했습니다.</li>
-                            <li>PURE MEMORY 표기를 삭제합니다. 이제 PURE MEMORY 부분은 빈칸으로 표기됩니다.</li>
-                            <li>숫자에 천 단위마다 쉼표를 표기하도록 하였습니다.</li>
-                            <li>같은 곡의 다른 난이도는 이제 합쳐서 표기합니다.</li>
-                            <li>곡의 작곡가 명의도 표시됩니다.</li>
+                            <li>Applied Responsive Layout.</li>
+                            <li>Temporarily removed Max. step progress due to layout change.</li>
+                            <li>'PURE MEMORY' text is removed and replaced with blank space.</li>
+                            <li>Added commas as thousands separators in score.</li>
+                            <li>Display different difficulties of the same song at once.</li>
+                            <li>Added artist name below the song title.</li>
                         </ul>
+                        <hr>
+                        <h2>v1.1.1 - 2021-09-20</h2>
+                        <ul>
+                            <li>Updated data to Arcaea 3.8.2 (still missing ESM)</li>
+                            <li>Updated difficulty to match post-3.0 conventions (9 → 9+, 10; 9+ → 10, 10+; 10 → 11)</li>
+                            <li>Added Beyond difficulty to calculation</li>
+                        </ul>   
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-                        <a class="btn btn-primary" href="https://github.com/arc-info/world-calculator">GitHub</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a class="btn btn-primary" href="https://github.com/beerpsi/world-calculator">View on GitHub</a>
                     </div>
                 </div>
             </div>
