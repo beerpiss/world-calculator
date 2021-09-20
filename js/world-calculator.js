@@ -115,7 +115,7 @@ function calculate(l) {
                 badge.classList.add("badge");
                 badge.classList.add("badge-pill");
                 badge.classList.add(badgeColors[j]);
-                badge.innerHTML = badgeText[j] + rating_string + "(" + charts[j]["detailed_rating"] + ")";
+                badge.innerHTML = badgeText[j] + rating_string + "(" + charts[j]["detailed_rating"].toFixed(1) + ")";
                 colDiv.appendChild(badge);
                 colDiv.appendChild(document.createElement("br"));
                 colDiv.appendChild(document.createTextNode(score_string));
