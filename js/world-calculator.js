@@ -85,7 +85,7 @@ function calculate(l) {
             div.appendChild(document.createTextNode(songs[i]["artist"]));
             chartDiv.appendChild(div);
             var chartAdded = false;
-            for(var j = 0; j < 3; j++) {
+            for(var j = 0; j <= charts.length; j++) {
                 var score_min = get_rating(charts[j]["detailed_rating"], chart_potential_min).toFixed(0) * 1;
                 var score_max = get_rating(charts[j]["detailed_rating"], chart_potential_max).toFixed(0) * 1;
                 if(score_min == -1 || score_max == -2) continue;
@@ -109,8 +109,8 @@ function calculate(l) {
                 var colDiv = document.createElement("div");
                 colDiv.style = "margin: 0 5px";
                 colDiv.classList.add("col-sm-2");
-                var badgeColors = ["badge-primary", "badge-success", "badge-danger"];
-                var badgeText = ["PAST ", "PRESENT ", "FUTURE "];
+                var badgeColors = ["badge-primary", "badge-success", "badge-danger", "badge-danger"];
+                var badgeText = ["PAST ", "PRESENT ", "FUTURE ", "BEYOND "];
                 var badge = document.createElement("span");
                 badge.classList.add("badge");
                 badge.classList.add("badge-pill");
