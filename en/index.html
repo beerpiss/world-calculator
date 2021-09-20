@@ -30,7 +30,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F48FB1">
-            <a class="navbar-brand geosans" href="#"><img src="../static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">arcinfo</span> <span style="font-size: 1rem">World Calculator</span></a>
+            <a class="navbar-brand geosans" href="#"><img src="../static\img\logo.png" height="40px" style="margin: -10px 3px 0 0;"><span style="font-size: 1.75rem;">World Calculator</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,6 +50,7 @@
             <div id="data-input">
                 <h1 class="geosans">World Calculator</h1>
                 <p>Enter step range to progress and partner's STEP stat. It will show you right score range for available songs.</p>
+                <p>Tip: To reach a specific tile, calculate the sum of all tiles from your location to the specific tile (inclusive) and reduce by 0.1.</p>
                 <div class="row">
                     <div class="col-md">
                         <label for="step-to-forward-min">Step Range to Progress</label>
@@ -79,10 +80,11 @@
             <hr>
             <div id="song-table">
                 <p>Use Ctrl+F to find desired songs.</p>
-                <p>If you failed with HARD gauge partners, 2.5 * (Partner's STEP stat / 50) is your step progress.</p>
+                <p>If your score is under 6m, 2.5 * (Partner's STEP stat / 50) is your step progress.</p>
             </div>
         </div>
         <footer>
+            <p>Forked from <a href="https://github.com/arc-info/world-calculator">arc-info/world-calculator</a> under the MIT License.</p>
             <p>Game "Arcaea" and all related stuffs are owned by lowiro limited.</p>
         </footer>
         <!-- Modal -->
@@ -124,9 +126,16 @@
                             <li>Temporarily removed Max. step progress due to layout change.</li>
                             <li>'PURE MEMORY' text is removed and replaced with blank space.</li>
                             <li>Added commas as thousands separators in score.</li>
-                            <li>Display diffrent difficulties of the same song at once.</li>
+                            <li>Display different difficulties of the same song at once.</li>
                             <li>Added artist name below the song title.</li>
                         </ul>
+                        <hr>
+                        <h2>v1.1.1 - 2021-09-20</h2>
+                        <ul>
+                            <li>Updated data to Arcaea 3.8.2 (still missing ESM)</li>
+                            <li>Updated difficulty to match post-3.0 conventions (9 → 9+, 10; 9+ → 10, 10+; 10 → 11)</li>
+                            <li>Added Beyond difficulty to calculation</li>
+                        </ul>   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
