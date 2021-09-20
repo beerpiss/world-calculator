@@ -157,3 +157,12 @@ function get_rating(detailed_rating, chart_potential) {
     }
     return (score_mod * 300000) + 9500000;
 }
+
+function get_fars_over(score, note_count){
+    return ((1e7 - score) / (1e7 / (2 * note_count)).toFixed(0)).toFixed(0)
+}
+
+function get_fars_not_over(score, note_count){
+    var e = (1e7 - score) / (1e7 / (2 * note_count)).toFixed(0);
+    return e > e.toFixed(0) && e++, e.toFixed(0)
+}
