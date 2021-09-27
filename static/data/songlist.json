@@ -9508,5 +9508,48 @@
         }
       ]
     }
+  ,
+    {
+      "id": "energysynergymatrix",
+      "title_localized": {
+        "en": "ENERGY SYNERGY MATRIX"
+      },
+      "artist": "Tanchiky",
+      "bpm": "160",
+      "bpm_base": 160,
+      "set": "extend",
+      "purchase": "extend",
+      "audioPreview": 0,
+      "audioPreviewEnd": 0,
+      "side": 1,
+      "bg": "nijuusei-conflict-b",
+      "remote_dl": true,
+      "world_unlock": true,
+      "date": 1631059200,
+      "version": "3.8",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "POWER NITRO",
+          "jacketDesigner": "からめる",
+          "rating": 3,
+          "detailed_rating": 3.5
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "POWER NITRO",
+          "jacketDesigner": "からめる",
+          "rating": 7,
+          "detailed_rating": 7.0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "POWER NITRO",
+          "jacketDesigner": "からめる",
+          "rating": 9,
+          "detailed_rating": 9.6
+        }
+      ]
+    }
   ]
 }
